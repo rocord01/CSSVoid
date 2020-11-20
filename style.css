@@ -1,0 +1,268 @@
+.wrapper {
+  -webkit-animation: rotate 10s infinite linear;
+          animation: rotate 10s infinite linear;
+  position: fixed;
+  width: 100%;
+  padding-top: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.circle {
+  position: fixed;
+  width: 100%;
+  padding-top: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#000), to(#0546af));
+  background: linear-gradient(to bottom right, #000, #0546af);
+}
+
+.circle.circle-1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.circle.circle-2 {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+.circle.circle-3 {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.circle.circle-4 {
+  -webkit-animation-delay: -1.5s;
+          animation-delay: -1.5s;
+}
+.circle.circle-5 {
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+.circle.circle-6 {
+  -webkit-animation-delay: -2.5s;
+          animation-delay: -2.5s;
+}
+.circle.circle-7 {
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+.circle.circle-8 {
+  -webkit-animation-delay: -3.5s;
+          animation-delay: -3.5s;
+}
+.circle.circle-9 {
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+.circle.circle-10 {
+  -webkit-animation-delay: -4.5s;
+          animation-delay: -4.5s;
+}
+.circle.circle-11 {
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+.circle.circle-12 {
+  -webkit-animation-delay: -5.5s;
+          animation-delay: -5.5s;
+}
+.circle.circle-13 {
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+.circle.circle-14 {
+  -webkit-animation-delay: -6.5s;
+          animation-delay: -6.5s;
+}
+.circle.circle-15 {
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+.circle.circle-16 {
+  -webkit-animation-delay: -7.5s;
+          animation-delay: -7.5s;
+}
+.circle.circle-17 {
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+.circle.circle-18 {
+  -webkit-animation-delay: -8.5s;
+          animation-delay: -8.5s;
+}
+.circle.circle-19 {
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+.circle.circle-20 {
+  -webkit-animation-delay: -9.5s;
+          animation-delay: -9.5s;
+}
+
+.circle {
+  -webkit-animation: scale 10s linear infinite;
+          animation: scale 10s linear infinite;
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0) rotate(0deg);
+            transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    z-index: 20;
+  }
+  5% {
+    z-index: 19;
+  }
+  10% {
+    z-index: 18;
+  }
+  15% {
+    z-index: 17;
+  }
+  20% {
+    z-index: 16;
+  }
+  25% {
+    z-index: 15;
+  }
+  30% {
+    z-index: 14;
+  }
+  35% {
+    z-index: 13;
+  }
+  40% {
+    z-index: 12;
+  }
+  45% {
+    z-index: 11;
+  }
+  50% {
+    z-index: 10;
+  }
+  55% {
+    z-index: 9;
+  }
+  60% {
+    z-index: 8;
+  }
+  65% {
+    z-index: 7;
+  }
+  70% {
+    z-index: 6;
+  }
+  75% {
+    z-index: 5;
+  }
+  80% {
+    z-index: 4;
+  }
+  85% {
+    z-index: 3;
+  }
+  90% {
+    z-index: 2;
+  }
+  95% {
+    z-index: 1;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+            transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0) rotate(0deg);
+            transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    z-index: 20;
+  }
+  5% {
+    z-index: 19;
+  }
+  10% {
+    z-index: 18;
+  }
+  15% {
+    z-index: 17;
+  }
+  20% {
+    z-index: 16;
+  }
+  25% {
+    z-index: 15;
+  }
+  30% {
+    z-index: 14;
+  }
+  35% {
+    z-index: 13;
+  }
+  40% {
+    z-index: 12;
+  }
+  45% {
+    z-index: 11;
+  }
+  50% {
+    z-index: 10;
+  }
+  55% {
+    z-index: 9;
+  }
+  60% {
+    z-index: 8;
+  }
+  65% {
+    z-index: 7;
+  }
+  70% {
+    z-index: 6;
+  }
+  75% {
+    z-index: 5;
+  }
+  80% {
+    z-index: 4;
+  }
+  85% {
+    z-index: 3;
+  }
+  90% {
+    z-index: 2;
+  }
+  95% {
+    z-index: 1;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+            transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
